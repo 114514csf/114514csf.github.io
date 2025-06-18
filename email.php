@@ -27,14 +27,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "邮件发送失败，请稍后重试。";
     }
 } else {
-?>
-<!-- 简单的HTML表单 -->
-<form method="post" action="">
-    姓名: <input type="text" name="name" required><br>
-    邮箱: <input type="email" name="email" required><br>
-    内容: <textarea name="message" required></textarea><br>
-    <input type="submit" value="发送">
-</form>
-<?php
+
 }
 ?>
